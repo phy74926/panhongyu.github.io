@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-04-07T13:38:49.911Z</updated>
+  <updated>2017-05-02T05:06:20.723Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Come And Go</title>
+    <link href="http://yoursite.com/2017/05/02/Come-And-Go/"/>
+    <id>http://yoursite.com/2017/05/02/Come-And-Go/</id>
+    <published>2017-05-02T05:03:22.000Z</published>
+    <updated>2017-05-02T05:06:20.723Z</updated>
+    
+    <content type="html"><![CDATA[<p>##我不想要太多 余生只想开心活 </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;##我不想要太多 余生只想开心活 &lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Love</title>
