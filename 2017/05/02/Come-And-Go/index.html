@@ -554,14 +554,15 @@ var _hmt = _hmt || [];
     var show = document.getElementById("show");
    setInterval(function() {
     var time = new Date();
-    var m = time.getMonth() + 1;
-    var t = "�����粻ƽ�˾� "+ (time.getFullYear()-2017) + "��" + (m-4) + "��"
+    var m = time.getMonth();
+    var t = "�����粻ƽ�˾� " + (time.getFullYear()-2017) + "��" + (m-4) + "��"
               + time.getDate() + "�� " + time.getHours() + "ʱ"
                + time.getMinutes() + "��" + time.getSeconds() + "��";
     show.innerHTML = t;
    }, 1000);
   };
 </script>
+
 <div id="show"></div>
 
         
