@@ -506,6 +506,22 @@ var _hmt = _hmt || [];
 })();
 </script>
 
+ <script type="text/javascript">  
+ window.onload = function() {
+    var show = document.getElementById("show");
+   setInterval(function() {
+    var time = new Date();
+// ������ʱ���´�0��ʼȡֵ��+1
+    var m = time.getMonth() + 1;
+ //�����Լ����͵Ĵ���ʱ��������ֵ
+    var t = "�����粻ƽ�˾� "+(time.getFullYear()-2017) + "��" + (m-3) + "��"
+              + time.getDate() + "�� " + time.getHours() + "ʱ"
+               + time.getMinutes() + "��" + time.getSeconds() + "��";
+    show.innerHTML = t;
+   }, 1000);
+  };
+</script>
+<div id="show"></div>
 
         
 
